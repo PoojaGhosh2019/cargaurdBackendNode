@@ -1,0 +1,8 @@
+curl -i -X POST -H "Content-Type: application/json" -d "{\"id\": \"123abcd456efgh\", \"name\":\"Joe\"}" http://localhost:3000/nest
+
+curl -i -X POST -H "Content-Type: application/json" -d "{\"id\": \"123abcd456efgh\"}" http://localhost:3000/events/handled
+
+curl  -H Accept:text/event-stream http://localhost:3000/events
+
+
+
